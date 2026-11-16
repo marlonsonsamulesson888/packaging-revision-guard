@@ -31,6 +31,8 @@ description: Protect approved packaging artwork during localized revisions by lo
 - 发现未授权改变，保留证据并在副本修正；修正后重做核验。不得用未核实的“全部一致/百分百没问题”。
 - 交付实际文件与简短结果：改了什么、保护项验证情况、仍未验证什么。源稿、预览和生产导出版本对应；需要印前检查时单独执行，不用本技能代替。
 
+- 当任务重点是“收到的两个版本是否有差异”，或附件多次补发、可能拿错样本时，读取 [对照取证增强模块](references/evidence-review.md)，用 [证据报告模板](references/report-template.md)记录样本身份、检查覆盖范围、无法确认项及修订结论。可用 scripts/pair_manifest.py 做双文件身份记录；不能代替视觉核验或印刷批准。
+
 ## 只读文件级差异工具
 Python 3.10+，仅标准库；不修改、渲染或上传输入文件。
 
